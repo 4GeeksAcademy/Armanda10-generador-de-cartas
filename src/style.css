@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: darkgreen;
+}
+.container {
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  display: inline-flex;
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px;
+  margin: 10px;
+  text-align: center;
+  font-size: 50px;
+  top: 200px;
+}
+
+.card {
+  width: 300px;
+  font-size: 90%;
+  font-weight: bold;
+  border: none;
+}
+.header {
+  text-align: initial;
+  font-size: 70px;
+  /* border: none; */
+  margin-top: auto;
+}
+.body {
+  text-align: center;
+  font-size: 70%;
+}
+.footer {
+  text-align: end;
+  font-size: 70px;
+  /* border: none; */
+}
