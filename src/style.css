@@ -2,39 +2,63 @@
 
 body {
   background-color: darkgreen;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 .container {
-  width: 250px;
+  width: 100%;
   height: 350px;
-  background-color: white;
-  display: inline-flex;
-  border-radius: 15px;
-  padding: 20px;
+  display: flex;
   border: 1px;
   margin: 10px;
   text-align: center;
-  font-size: 50px;
-  top: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-  width: 300px;
-  font-size: 90%;
+  width: 200px;
   font-weight: bold;
   border: none;
+  height: 100%;
+  border-radius: 15px;
+  font-size: 50px;
+  padding: 0 20px;
+  font-family: serif;
 }
+
 .header {
   text-align: initial;
   font-size: 70px;
-  /* border: none; */
   margin-top: auto;
+  height: 100%;
+  top: auto;
 }
+
 .body {
   text-align: center;
-  font-size: 70%;
+  font-size: 2em;
+  height: 70%;
 }
 .footer {
   text-align: end;
   font-size: 70px;
-  /* border: none; */
+  flex-direction: column-reverse;
+}
+
+#centerButton {
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  padding: 10 10px;
+  font-size: 16px;
+  background-color: black;
+  border-radius: 25px;
+  color: aliceblue;
+  bottom: 100px;
+  align-items: end;
+  position: absolute;
+  /* align-items: center; */
 }
