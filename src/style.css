@@ -43,9 +43,11 @@ body {
   height: 70%;
 }
 .footer {
-  text-align: end;
+  align-self: flex-end;
+  /* text-align: right; */
   font-size: 70px;
-  flex-direction: column-reverse;
+  /* flex-direction: column-reverse; */
+  transform: rotate(180deg);
 }
 
 #centerButton {
@@ -58,7 +60,7 @@ body {
   border-radius: 25px;
   color: aliceblue;
   bottom: 100px;
-  align-items: end;
+  /* align-items: end; */
   position: absolute;
-  /* align-items: center; */
+  align-items: center;
 }
